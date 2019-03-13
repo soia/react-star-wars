@@ -17,3 +17,7 @@ html {
 .stardb-app {
   padding: 20px 40px;
 }
+
+.error-full-screen .error-indicator {
+  height: calc(100vh - 100px);
+}
