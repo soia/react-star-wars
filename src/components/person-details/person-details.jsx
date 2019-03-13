@@ -3,6 +3,7 @@ import React, { Component } from 'react';
 import './person-details.css';
 import SwapiService from "../../services/swapi-service";
 import ErrorButton from "../error-button/error-button";
+import Spinner from "../spinner/spinner";
 
 export default class PersonDetails extends Component {
 
@@ -39,7 +40,12 @@ export default class PersonDetails extends Component {
 
         const { person } = this.state;
         if (!person) {
-            return <span>Select a person from a list</span>;
+            return (
+                <div className="spinner-text">
+                    <Spinner />
+                    <span>Select a person from a list</span>
+                </div>
+            )
         }
 
         const { id, name, gender,
