@@ -1,23 +1,17 @@
-html {
-  min-width: 465px;
-}
-
 .button-row {
-  margin: 0 0 1rem 0;
+    margin: 0 0 1rem 0;
 }
 
 .button-row button {
-  margin-right: 1rem;
-}
-
-.stardb-app .row {
-  margin-bottom: 1rem;
+    margin-right: 1rem;
 }
 
 .stardb-app {
-  padding: 20px 40px;
+    padding: 0 40px;
 }
 
-.error-full-screen .error-indicator {
-  height: calc(100vh - 100px);
+.stardb-app .row {
+    margin-bottom: 1rem;
 }
+
+.login-row {}
